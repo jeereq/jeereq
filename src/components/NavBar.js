@@ -52,8 +52,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/jeereq"><img src={navIcon1} alt="jeereq minganda" /></a>
-                <a href="mailto:mingandajeereq@gmail.com" target={`_blank`}><img src={navIcon4} alt="jeereq minganda" /></a>
+                <a href="https://www.linkedin.com/in/jeereq" target={`_blank`}><img src={navIcon1} alt="jeereq minganda" /></a>
+                <a href="mailto:mingandajeereq@gmail.com" ><img src={navIcon4} alt="jeereq minganda" /></a>
                 <a href="https://github.com/jeereq" target={`_blank`}><img src={navIcon5} alt="jeereq minganda" /></a>
               </div>
               <HashLink to='#connect'>
