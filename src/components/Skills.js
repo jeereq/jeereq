@@ -29,35 +29,31 @@ export const Skills = () => {
 
   return (
     <section className="skill" id="skills">
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Compétences</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                        </Carousel>
-                    </div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="skill-bx wow zoomIn">
+              <h2>Compétences</h2>
+              <p>Mes compétences hard </p>
+              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Developpement web</h5>
                 </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Frontend Developpement</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Backend Developpement</h5>
+                </div>
+              </Carousel>
             </div>
+          </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+      </div>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }

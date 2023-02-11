@@ -84,12 +84,12 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Moi c'est jeereq minganda Développeur full stack web;
+                    Moi c'est jeereq minganda Développeur full stack web
                     Voici une liste exhaustive dès mes compétences en développement
                     logiciels suivis d'une liste des projets sur lequelles j'ai travaillé
                     qui parle pour moi mieux qu'un long discours.
                   </p>
-                  <p>#code is bae #code is life #&#128076; </p>
+                  <p>#Code is bae #Code is life #&#128076; </p>
                   <button onClick={() => console.log("connect")}>
                     Contact moi
                     <ArrowRightCircle size={25} />
