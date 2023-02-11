@@ -13,7 +13,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('Envoyer');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -33,7 +33,7 @@ export const Contact = () => {
       },
       body: JSON.stringify(formDetails),
     });
-    setButtonText("Send");
+    setButtonText("Envoyer");
     let result = await response.json();
     setFormDetails(formInitialDetails);
     if (result.code == 200) {
