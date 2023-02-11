@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [presentation] = useState("jeereq minganda");
-  const [salutation,setSalutation] = useState("Bonjour");
+  const [salutation, setSalutation] = useState("Bonjour");
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [hour, setHour] = useState(new Date().getHours());
@@ -53,7 +53,7 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
-  
+
   useEffect(() => {
     if (hour >= 18) {
       setSalutation("Bonsoir");
@@ -78,18 +78,18 @@ export const Banner = () => {
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "full stack developer", "UI/UX Designer" ]'
+                      data-rotate='[ "Web Developer", "Full Stack Developer", "UI/UX Designer" ]'
                     >
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Moi c'est jeereq minganda Développeur full stack web;
+                    Voici une liste exhaustive dès mes compétences en développement
+                    logiciels suivis d'une liste des projets sur lequelles j'ai travaillé
+                    qui parle pour moi mieux qu'un long discours.
                   </p>
+                  <p>#code is bae #code is life #&#128076; </p>
                   <button onClick={() => console.log("connect")}>
                     Contact moi
                     <ArrowRightCircle size={25} />

@@ -2,7 +2,7 @@
 
 Ce projet a été cloné est modifié pour faire office de portfolio [Voici mon Portfolio](https://jeereq.vercel.app/).
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="./bg.png">
+<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="./src/assets/img/bg.png">
 
 Built using:
 
